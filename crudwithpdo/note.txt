@@ -1,0 +1,3 @@
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_SILENT);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);

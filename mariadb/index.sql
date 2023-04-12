@@ -129,3 +129,9 @@ INSERT INTO student_course (student_id,course_id) VALUES
 SELECT students.name as student_name , students.dob as student_dob , courses.name as course_name  FROM student_course
 join students ON student_course.student_id = students.id
 join courses ON student_course.course_id = courses.id;
+
+INSERT INTO students(name,dob,gender)
+VALUES ('H4P6','2002-02-03','male');
+
+UPDATE students
+ SET name = 'Hla Hla',gender='female' WHERE name='H4P6';
